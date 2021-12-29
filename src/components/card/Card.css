@@ -1,0 +1,33 @@
+a {
+    color: var(--text-color-default)
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.no-hover-card:hover * {
+    color: var(--text-color-default);
+    text-decoration: initial;
+    cursor: initial;
+}
+
+.hover-card p {
+    transition: 0.2s linear;
+}
+
+.hover-card a:hover, .hover-card a:hover p {
+    color: #007BFF !important;
+    text-decoration: initial;
+}
+

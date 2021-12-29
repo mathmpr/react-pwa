@@ -1,0 +1,21 @@
+.logo {
+    padding: 0 15px;
+}
+
+.logo h1 {
+    position: relative;
+    left: -3px;
+}
+
+.logo a:hover{
+    text-decoration: initial;
+}
+
+#search{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#search input{
+    margin-top: 7px;
+}
